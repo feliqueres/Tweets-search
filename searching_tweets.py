@@ -5,13 +5,13 @@ import json
 with open('config.json') as json_file:
     data = json.load(json_file)
 
-    consumer_key = data['consumer_key']
-    consumer_secret = data['consumer_secret']
-    access_token = data['access_token']
-    access_token_secret = data['access_token_secret']
-    twitter_account = data['twitter_account_to_search']
+    consumer_key = config_data['consumer_key']
+    consumer_secret = config_data['consumer_secret']
+    access_token = config_data['access_token']
+    access_token_secret = config_data['access_token_secret']
+    twitter_account = config_data['twitter_account_to_search']
 
-    words = data['words']
+    words = config_data['words']
 
 tweets = []
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
