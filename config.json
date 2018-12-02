@@ -1,0 +1,13 @@
+{
+  "consumer_key": "?",
+  "consumer_secret": "?",
+  "access_token": "?",
+  "access_token_secret": "?",
+  "twitter_account_to_search": "?",
+  "words": [
+    "azul",
+    "ganhou",
+    "cego",
+    "vegan"
+  ]
+}
