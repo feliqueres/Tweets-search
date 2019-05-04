@@ -3,7 +3,7 @@ import json
 
 
 with open('config.json') as json_file:
-    data = json.load(json_file)
+    config_data = json.load(json_file)
 
     consumer_key = config_data['consumer_key']
     consumer_secret = config_data['consumer_secret']
